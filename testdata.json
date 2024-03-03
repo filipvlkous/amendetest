@@ -1,0 +1,911 @@
+[
+  {
+    "id": 637,
+    "name": "Steppenwolf",
+    "slug": "637-steppenwolf",
+    "powerstats": {
+      "intelligence": 94,
+      "strength": 100,
+      "speed": 83,
+      "durability": 100,
+      "power": 100,
+      "combat": 100
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "New God",
+      "height": ["6'0", "183 cm"],
+      "weight": ["203 lb", "91 kg"],
+      "eyeColor": "Red",
+      "hairColor": "Black"
+    },
+    "biography": {
+      "fullName": "",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["Steppenwulf"],
+      "placeOfBirth": "-",
+      "firstAppearance": "The New Gods #7",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/637-steppenwolf.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/637-steppenwolf.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/637-steppenwolf.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/637-steppenwolf.jpg"
+    }
+  },
+  {
+    "id": 602,
+    "name": "Siren",
+    "slug": "602-siren",
+    "powerstats": {
+      "intelligence": 56,
+      "strength": 62,
+      "speed": 79,
+      "durability": 60,
+      "power": 92,
+      "combat": 60
+    },
+    "appearance": {
+      "gender": "Female",
+      "race": "Atlantean",
+      "height": ["5'9", "175 cm"],
+      "weight": ["160 lb", "72 kg"],
+      "eyeColor": "Blue",
+      "hairColor": "Purple"
+    },
+    "biography": {
+      "fullName": "Hila",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Aquaman #22 (August, 1965)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "formely Atlantis"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "Mera (twin sister), Aquaman (brother-in-law)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/602-siren.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/602-siren.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/602-siren.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/602-siren.jpg"
+    }
+  },
+  {
+    "id": 459,
+    "name": "Mister Mxyzptlk",
+    "slug": "459-mister-mxyzptlk",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 85,
+      "speed": 100,
+      "durability": 100,
+      "power": 100,
+      "combat": 50
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "God / Eternal",
+      "height": ["-", "0 cm"],
+      "weight": ["- lb", "0 kg"],
+      "eyeColor": "-",
+      "hairColor": "-"
+    },
+    "biography": {
+      "fullName": "Mr. Mxyzptlk",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Superman #30",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/459-mister-mxyzptlk.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/459-mister-mxyzptlk.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/459-mister-mxyzptlk.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/459-mister-mxyzptlk.jpg"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Black Manta",
+    "slug": "105-black-manta",
+    "powerstats": {
+      "intelligence": 75,
+      "strength": 28,
+      "speed": 50,
+      "durability": 60,
+      "power": 76,
+      "combat": 85
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": ["6'2", "188 cm"],
+      "weight": ["205 lb", "92 kg"],
+      "eyeColor": "Black",
+      "hairColor": "No Hair"
+    },
+    "biography": {
+      "fullName": "David",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["Devil Ray", "Scourge of the Seven Seas", "Yellow Lantern"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Aquaman #35 (August, 1967)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/105-black-manta.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/105-black-manta.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/105-black-manta.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/105-black-manta.jpg"
+    }
+  },
+  {
+    "id": 646,
+    "name": "Swarm",
+    "slug": "646-swarm",
+    "powerstats": {
+      "intelligence": 75,
+      "strength": 18,
+      "speed": 50,
+      "durability": 90,
+      "power": 38,
+      "combat": 35
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Mutant",
+      "height": ["6'5", "196 cm"],
+      "weight": ["104 lb", "47 kg"],
+      "eyeColor": "Yellow",
+      "hairColor": "No Hair"
+    },
+    "biography": {
+      "fullName": "Fritz von Meyer",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Champions #14 (July, 1977)",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Ph.D. in toxicology & entomology",
+      "base": "Formerly South Africa"
+    },
+    "connections": {
+      "groupAffiliation": "Leader of the All-New Sinister Six; formerly Exterminators, Nazi Party",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/646-swarm.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/646-swarm.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/646-swarm.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/646-swarm.jpg"
+    }
+  },
+  {
+    "id": 558,
+    "name": "Riddler",
+    "slug": "558-riddler",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 10,
+      "speed": 12,
+      "durability": 14,
+      "power": 10,
+      "combat": 14
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": null,
+      "height": ["-", "0 cm"],
+      "weight": ["- lb", "0 kg"],
+      "eyeColor": "-",
+      "hairColor": "-"
+    },
+    "biography": {
+      "fullName": "Edward Nigma",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["E. Nigma", "Edward E. Nigma"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Detective Comics #140 (1948)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/558-riddler.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/558-riddler.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/558-riddler.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/558-riddler.jpg"
+    }
+  },
+  {
+    "id": 639,
+    "name": "Stormtrooper",
+    "slug": "639-stormtrooper",
+    "powerstats": {
+      "intelligence": 10,
+      "strength": 8,
+      "speed": 8,
+      "durability": 15,
+      "power": 5,
+      "combat": 20
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": ["6'0", "183 cm"],
+      "weight": ["- lb", "0 kg"],
+      "eyeColor": "-",
+      "hairColor": "-"
+    },
+    "biography": {
+      "fullName": "",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Star Wars: Episode IV - A New Hope (1977)",
+      "publisher": "George Lucas",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/639-stormtrooper.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/639-stormtrooper.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/639-stormtrooper.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/639-stormtrooper.jpg"
+    }
+  },
+  {
+    "id": 127,
+    "name": "Boba Fett",
+    "slug": "127-boba-fett",
+    "powerstats": {
+      "intelligence": 63,
+      "strength": 10,
+      "speed": 38,
+      "durability": 36,
+      "power": 68,
+      "combat": 70
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human / Clone",
+      "height": ["6'0", "183 cm"],
+      "weight": ["- lb", "0 kg"],
+      "eyeColor": "Brown",
+      "hairColor": "Black"
+    },
+    "biography": {
+      "fullName": "",
+      "alterEgos": "No alter egos found.",
+      "aliases": [
+        "Teff",
+        "Sava Brek Madak",
+        "Jaster Mereel",
+        "Mandalore",
+        "Mand'alor"
+      ],
+      "placeOfBirth": "Kamino",
+      "firstAppearance": "-",
+      "publisher": "George Lucas",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Bounty Hunter",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "-"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/127-boba-fett.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/127-boba-fett.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/127-boba-fett.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/127-boba-fett.jpg"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Bane",
+    "slug": "60-bane",
+    "powerstats": {
+      "intelligence": 88,
+      "strength": 38,
+      "speed": 23,
+      "durability": 56,
+      "power": 51,
+      "combat": 95
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": ["6'8", "203 cm"],
+      "weight": ["400 lb", "180 kg"],
+      "eyeColor": "-",
+      "hairColor": "-"
+    },
+    "biography": {
+      "fullName": "",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Batman: Vengeance of Bane #1 (January, 1993)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "Santa Prisca"
+    },
+    "connections": {
+      "groupAffiliation": "Suicide Squad, The Secret Society of Super Villains",
+      "relatives": "King Snake (father)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/60-bane.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/60-bane.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/60-bane.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/60-bane.jpg"
+    }
+  },
+  {
+    "id": 370,
+    "name": "Joker",
+    "slug": "370-joker",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 10,
+      "speed": 12,
+      "durability": 60,
+      "power": 43,
+      "combat": 70
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": ["6'5", "196 cm"],
+      "weight": ["192 lb", "86 kg"],
+      "eyeColor": "Green",
+      "hairColor": "Green"
+    },
+    "biography": {
+      "fullName": "Jack Napier",
+      "alterEgos": "No alter egos found.",
+      "aliases": [
+        "Red Hood I",
+        "Clown Prince of Crime",
+        "Harlequin of Hate",
+        "Jack Napier",
+        "Joe Kerr",
+        "Mr. J"
+      ],
+      "placeOfBirth": "-",
+      "firstAppearance": "Batman #1 (Spring 1940)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "Arkham Asylum, Gotham City; Ha-Hacienda"
+    },
+    "connections": {
+      "groupAffiliation": "Black Glove, Injustice Gang, Injustice League, Joker League of Anarchy",
+      "relatives": "Jeannie (wife, deceased); Unborn son (deceased); Melvin Reipan (cousin, deceased)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/370-joker.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/370-joker.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/370-joker.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/370-joker.jpg"
+    }
+  },
+  {
+    "id": 231,
+    "name": "Doppelganger",
+    "slug": "231-doppelganger",
+    "powerstats": {
+      "intelligence": 8,
+      "strength": 63,
+      "speed": 60,
+      "durability": 95,
+      "power": 69,
+      "combat": 84
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": null,
+      "height": ["6'5", "196 cm"],
+      "weight": ["230 lb", "104 kg"],
+      "eyeColor": "White",
+      "hairColor": "No Hair"
+    },
+    "biography": {
+      "fullName": "",
+      "alterEgos": "No alter egos found.",
+      "aliases": [
+        "The Spider-Man Doppelganger",
+        "Spider-Doppelganger",
+        "Mindless One"
+      ],
+      "placeOfBirth": "The Dimension of Manifestations",
+      "firstAppearance": "Infinity War #1 (1992)",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "Formerly Carnage Family; Magus' doppelgangers; operative of Demogoblin",
+      "relatives": "Anthropomorpho (creator); Hellspawn, Moonshade, many other doppelgangers (brethren)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/231-doppelganger.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/231-doppelganger.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/231-doppelganger.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/231-doppelganger.jpg"
+    }
+  },
+  {
+    "id": 514,
+    "name": "Penguin",
+    "slug": "514-penguin",
+    "powerstats": {
+      "intelligence": 75,
+      "strength": 10,
+      "speed": 12,
+      "durability": 28,
+      "power": 30,
+      "combat": 45
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": ["5'2", "157 cm"],
+      "weight": ["175 lb", "79 kg"],
+      "eyeColor": "Blue",
+      "hairColor": "Black"
+    },
+    "biography": {
+      "fullName": "Oswald Chesterfield Cobblepot",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "DETECTIVE COMICS #58 (December, 1941)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Trader",
+      "base": "Gotham City"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "Miranda Cobblepot (Aunt), Miranda (Mother, deceased), Father (deceased)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/514-penguin.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/514-penguin.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/514-penguin.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/514-penguin.jpg"
+    }
+  },
+  {
+    "id": 300,
+    "name": "Green Goblin II",
+    "slug": "300-green-goblin-ii",
+    "powerstats": {
+      "intelligence": 75,
+      "strength": 55,
+      "speed": 37,
+      "durability": 50,
+      "power": 44,
+      "combat": 26
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": null,
+      "height": ["5'10", "178 cm"],
+      "weight": ["170 lb", "77 kg"],
+      "eyeColor": "Blue",
+      "hairColor": "Auburn"
+    },
+    "biography": {
+      "fullName": "Harold Osborn",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "New York City",
+      "firstAppearance": "Amzing Spide-Man #31",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "Formerly New York City"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "Liz Allen-Osborn (Wife,) Norman III (son,)Norman Osborn II - Green Goblin (father)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/300-green-goblin-ii.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/300-green-goblin-ii.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/300-green-goblin-ii.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/300-green-goblin-ii.jpg"
+    }
+  },
+  {
+    "id": 405,
+    "name": "Lex Luthor",
+    "slug": "405-lex-luthor",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 53,
+      "speed": 25,
+      "durability": 65,
+      "power": 68,
+      "combat": 70
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Human",
+      "height": ["6'2'", "188 cm"],
+      "weight": ["210 lb", "95 kg"],
+      "eyeColor": "Green",
+      "hairColor": "No Hair"
+    },
+    "biography": {
+      "fullName": "Lex Luthor",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["-"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Action Comics #23",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Owner of LexCorp",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "Injustice Gang, Injustice League, Society of Supervillains",
+      "relatives": "Casey and Elaine Griggs (foster parents, deceased),\nLena Luthor (sister pre-Crisis; daughter post-Crisis),\nElizabeth Perske (ex-wife),\nPerry J. White Jr. (son, deceased),\nContessa Erica Alexandra del Portenza (wife, assumed deceased)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/405-lex-luthor.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/405-lex-luthor.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/405-lex-luthor.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/405-lex-luthor.jpg"
+    }
+  },
+  {
+    "id": 204,
+    "name": "Darkseid",
+    "slug": "204-darkseid",
+    "powerstats": {
+      "intelligence": 88,
+      "strength": 100,
+      "speed": 83,
+      "durability": 100,
+      "power": 100,
+      "combat": 95
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "New God",
+      "height": ["8'9", "267 cm"],
+      "weight": ["1815 lb", "817 kg"],
+      "eyeColor": "Red",
+      "hairColor": "No Hair"
+    },
+    "biography": {
+      "fullName": "Uxas",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["Dark God"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Superman's Pal Jimmy Olsen #134 (November 1970)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Dictator of Apokolips",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "New Gods of Apokolips(ruler), Secret Society of Supervillains",
+      "relatives": "Zonuz (father), Izaya (brother), Avia (sister, deceased), Grail (daughter), Kalibak (son), Orion (son), Deathspawn (son), Scot (nephew/adopted son)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/204-darkseid.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/204-darkseid.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/204-darkseid.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/204-darkseid.jpg"
+    }
+  },
+  {
+    "id": 642,
+    "name": "Superboy-Prime",
+    "slug": "642-superboy-prime",
+    "powerstats": {
+      "intelligence": 94,
+      "strength": 100,
+      "speed": 100,
+      "durability": 100,
+      "power": 100,
+      "combat": 85
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Kryptonian",
+      "height": ["5'11", "180 cm"],
+      "weight": ["170 lb", "77 kg"],
+      "eyeColor": "Blue",
+      "hairColor": "Black / Blue"
+    },
+    "biography": {
+      "fullName": "Kal-El",
+      "alterEgos": "No alter egos found.",
+      "aliases": [
+        "Superman-Prime; Prime; Superboy; Clark Kent; Clarkie; Time Trapper"
+      ],
+      "placeOfBirth": "Krypton (Earth-Prime)",
+      "firstAppearance": "DC Comics Presents #87 (November, 1985)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "currently a recreation of Earth-Prime, formerly Qward, Anti-Matter Universe."
+    },
+    "connections": {
+      "groupAffiliation": "Formerly Black Lantern Corps, Legion of Super-Villains, Sinestro Corps",
+      "relatives": "Jor-El (father; deceased); Lara (mother, deceased); Jerry Kent (adoptive father); Naomi Kent (adoptive mother)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/642-superboy-prime.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/642-superboy-prime.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/642-superboy-prime.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/642-superboy-prime.jpg"
+    }
+  },
+  {
+    "id": 95,
+    "name": "Black Adam",
+    "slug": "95-black-adam",
+    "powerstats": {
+      "intelligence": 88,
+      "strength": 100,
+      "speed": 92,
+      "durability": 100,
+      "power": 100,
+      "combat": 56
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": null,
+      "height": ["6'3", "191 cm"],
+      "weight": ["250 lb", "113 kg"],
+      "eyeColor": "Brown",
+      "hairColor": "Black"
+    },
+    "biography": {
+      "fullName": "Teth-Adam",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["Hassan Bari", "Theo Adam", "Mighty Adam", "Khem-Adam"],
+      "placeOfBirth": "Kahndaq, Egypt",
+      "firstAppearance": "Marvel Family #1 (December, 1945)",
+      "publisher": "DC Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "-",
+      "base": "Mobile; Formerly Kahndaq; Fawcett City; New York City"
+    },
+    "connections": {
+      "groupAffiliation": "None; Formerly the Black Marvel Family, Society of Villains, Injustice Society, Justice Society of America",
+      "relatives": "Shiruta (wife, deceased), Gon and Hurut (sons, deceased) Theo Adam (descendant, currently in control of his body), Sarah Primm (descendant, Theo's sister), Adrianna Tomaz (wife. deceased), Amon Tomaz (brother-in-law, deceased)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/95-black-adam.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/95-black-adam.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/95-black-adam.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/95-black-adam.jpg"
+    }
+  },
+  {
+    "id": 414,
+    "name": "Loki",
+    "slug": "414-loki",
+    "powerstats": {
+      "intelligence": 88,
+      "strength": 63,
+      "speed": 46,
+      "durability": 85,
+      "power": 100,
+      "combat": 60
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Asgardian",
+      "height": ["6'4", "193 cm"],
+      "weight": ["525 lb", "236 kg"],
+      "eyeColor": "Green",
+      "hairColor": "Black"
+    },
+    "biography": {
+      "fullName": "Loki Laufeyson",
+      "alterEgos": "No alter egos found.",
+      "aliases": [
+        "God of Mischief",
+        "Gem-Keeper",
+        "Walter Lawson",
+        "Lester",
+        "Loren Olsen",
+        "Tyfon",
+        "Father Williams",
+        "Willie",
+        "Tso Zhung; has also impersonated hundreds of others."
+      ],
+      "placeOfBirth": "Jotunheim, Asgard",
+      "firstAppearance": "Journey into Mystery Vol. 1 #85",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "God of evil; former god of mischief and madness",
+      "base": "Asgard"
+    },
+    "connections": {
+      "groupAffiliation": "Asgardians, Karnilla, Enchantress, Skurge the Executioner, Cobra, Mister Hyde, Absorbing Man, Igron, Tyr, Lorelei, Hela, Ulik, Frost Giants, Storm Giants (former), Dormammu, \"Acts of Vengeance\" prime movers (Dr. Doom, Magneto, Red Skull, Mandari",
+      "relatives": "Laufey (father, deceased), Farbauti (mother, deceased), Sigyn (wife, deceased), Odin (foster father, deceased), Frigga (foster mother, deceased), Thor, Vidar (foster brothers, deceased), Hela,Fenris (Wolf), Jordmungand (Midgard Serpent) (children, deceased), Arkin (cousin, deceased)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/414-loki.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/414-loki.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/414-loki.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/414-loki.jpg"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Annihilus",
+    "slug": "29-annihilus",
+    "powerstats": {
+      "intelligence": 75,
+      "strength": 80,
+      "speed": 47,
+      "durability": 56,
+      "power": 59,
+      "combat": 64
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": null,
+      "height": ["5'11", "180 cm"],
+      "weight": ["200 lb", "90 kg"],
+      "eyeColor": "Green",
+      "hairColor": "No Hair"
+    },
+    "biography": {
+      "fullName": "Annihilus",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["The Living Death That Walks", "Lord of the Negative Zone"],
+      "placeOfBirth": "Planet of Arthros, Sector 17A, Negative Zone",
+      "firstAppearance": "Fantastic Four Annual #6 (1968)",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Conqueror, scavenger",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "Sometime ally of Blastaar",
+      "relatives": "Annihilus is a series of clonal scions"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/29-annihilus.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/29-annihilus.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/29-annihilus.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/29-annihilus.jpg"
+    }
+  },
+  {
+    "id": 463,
+    "name": "MODOK",
+    "slug": "463-modok",
+    "powerstats": {
+      "intelligence": 100,
+      "strength": 18,
+      "speed": 25,
+      "durability": 25,
+      "power": 79,
+      "combat": 15
+    },
+    "appearance": {
+      "gender": "Male",
+      "race": "Cyborg",
+      "height": ["12'0", "366 cm"],
+      "weight": ["750 lb", "338 kg"],
+      "eyeColor": "White",
+      "hairColor": "Brownn"
+    },
+    "biography": {
+      "fullName": "George Tarleton",
+      "alterEgos": "No alter egos found.",
+      "aliases": ["M.O.D.O.K.", "Mental Organism Designed Only for Killing"],
+      "placeOfBirth": "-",
+      "firstAppearance": "Tales of Suspense #93",
+      "publisher": "Marvel Comics",
+      "alignment": "bad"
+    },
+    "work": {
+      "occupation": "Would-be conqueror, AIM leader, terrorist; former AIM agent, technician",
+      "base": "-"
+    },
+    "connections": {
+      "groupAffiliation": "-",
+      "relatives": "M.O.D.O.K. Superior (clone), Head Case (son), Number None (son)"
+    },
+    "images": {
+      "xs": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/xs/463-modok.jpg",
+      "sm": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/463-modok.jpg",
+      "md": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/md/463-modok.jpg",
+      "lg": "https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/lg/463-modok.jpg"
+    }
+  }
+]
