@@ -11,6 +11,9 @@
   "dependencies": {
     "@heroicons/react": "^2.1.1",
     "@reduxjs/toolkit": "^2.2.1",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "axios": "^1.6.7",
     "formidable": "^3.5.1",
     "framer-motion": "^11.0.8",

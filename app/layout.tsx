@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
-import Providers from "@/Redux/provider";
+import { NavbarDemo } from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,15 +17,11 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={(inter.className, " bg-black")}>
         <header>
-          <nav>
-            <Link href={"/"}>Home</Link>
-            <Link href={"/admin/books"}>Admin</Link>
-            <Link href={"/books"}>Books</Link>
-          </nav>
+          <NavbarDemo />
         </header>
-        <Providers>{children}</Providers>
+        {children}
       </body>
     </html>
   );
