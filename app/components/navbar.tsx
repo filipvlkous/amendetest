@@ -1,15 +1,9 @@
 "use client";
 import React, { useState } from "react";
-import {
-  HoveredLink,
-  Menu,
-  MenuItem,
-  MenuLink,
-  ProductItem,
-} from "./ui/navbar";
+import { HoveredLink, Menu, MenuItem, MenuLink } from "./ui/navbar";
 import { twMerge } from "tailwind-merge";
 
-export function NavbarDemo() {
+export function NavbarBody() {
   return (
     <div className="relative w-full flex items-center justify-center">
       <Navbar className="top-2" />

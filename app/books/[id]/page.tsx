@@ -1,3 +1,5 @@
+import MainBody from "@/app/components/book/main";
+
 const apiCall = async (id: string) => {
   const username = process.env.BASIC_AUTH_NAME;
   const password = process.env.BASIC_AUTH_PASS;
@@ -18,9 +20,8 @@ export default async function Page({ params }: any) {
   const data = await apiCall(id);
   console.log(data);
   return (
-    <div className=" text-white">
-      <p>{data.data.name}</p>
-      <p>t</p>
+    <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative ">
+      <MainBody data={data} />
     </div>
   );
 }

@@ -39,11 +39,11 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && (
-            <div className="absolute top-[calc(100%_+_1.7rem)] left-1/2 transform -translate-x-1/2">
+            <div className="absolute top-[calc(100%_+_1.5rem)] left-1/2 transform -translate-x-1/2 ">
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="  bg-white backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2]  shadow-xl"
+                className="  bg-white backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2]  shadow-slate-500 shadow-sm"
               >
                 <motion.div
                   layout // layout ensures smooth animation
@@ -93,38 +93,10 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder border-transparent  shadow-lg shadow-slate-600 dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative rounded-full boder border-transparent shadow-lg shadow-slate-500 dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
     >
       {children}
     </nav>
-  );
-};
-
-export const ProductItem = ({
-  title,
-  description,
-  href,
-  src,
-}: {
-  title: string;
-  description: string;
-  href: string;
-  src: string;
-}) => {
-  return (
-    <Link href={href} className="flex space-x-2">
-      <Image
-        src={src}
-        width={140}
-        height={70}
-        alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
-      />
-      <div>
-        <h4 className="text-xl font-bold mb-1 text-black ">{title}</h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] ">{description}</p>
-      </div>
-    </Link>
   );
 };
 

@@ -1,4 +1,5 @@
 export async function getData() {
+  "use server"
     const url = "https://superhero-search.p.rapidapi.com/api/villains";
     const options = {
       method: "GET",
