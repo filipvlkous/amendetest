@@ -1,4 +1,5 @@
 import MainBody from "@/app/components/book/main";
+import Image from "next/image";
 
 const apiCall = async (id: string) => {
   const username = process.env.BASIC_AUTH_NAME;
@@ -15,13 +16,18 @@ const apiCall = async (id: string) => {
 };
 export default async function Page({ params }: any) {
   //  const id = searchParams.get("id");
-  const id = "65e5ab0b1d380403e8714498";
+  // const id = "65e799e71d380403e87149ee";
 
-  const data = await apiCall(id);
-  console.log(data);
+  // const data = await apiCall(params.id);
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative ">
-      <MainBody data={data} />
+      {/* <Image
+        src={`data:image/png;base64,${data.data.img}`}
+        alt={""}
+        width={200}
+        height={200}
+      /> */}
+      {/* <MainBody data={data} /> */}
     </div>
   );
 }

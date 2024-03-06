@@ -18,7 +18,7 @@ export async function GET(req: Request, { params }: any) {
   const id = params.id;
   try {
     const res = await fetch(
-      `https://crudcrud.com/api/f07e48e847fc42788a00bf67dbbf159b/books/${id}`,
+      `https://crudcrud.com/api/7c01e6b4f7f04ae39bb0304b6adb621a/books/${id}`,
       {
         method: "GET",
         headers: {

@@ -1,22 +1,14 @@
-export async function GET(req:Request) {
-    try{
-        const { searchParams } = new URL(req.url)
-        const id = searchParams.get('id')
-
-        const res = await fetch(`https://crudcrud.com/api/609c404be9e14cca90fedd3409a9e1fa/books/${id}`,{
-            method:"GET",
-            headers:{
-                'Content-Type': 'application/json',
-            }
-        })
-        
-        const data = await res.json()
-
-        return Response.json({ data })
-    }catch(error:any){
-        return Response.json(error.message)
-    }
-}
-
-
-
+export async function GET() {
+    const url = "https://superhero-search.p.rapidapi.com/api/villains";
+    const options = {
+      method: "GET",
+      headers: {
+        "X-RapidAPI-Key": "1c74f3df14msh726f94f4eb55b1fp1cdfabjsnd512d27323ed",
+        "X-RapidAPI-Host": "superhero-search.p.rapidapi.com",
+      },
+    };
+    const res = await fetch(url, options);
+    const data = await res.json()
+   
+    return Response.json({ data })
+  }
