@@ -14,8 +14,8 @@ export default async function Page() {
   // const data = await apiCall(id);
   // console.log(data);
   return (
-    <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative ">
-      {/* <MainBody data={data} /> */}
+    <div className="mx-auto max-w-7xl pt-32 sm:px-6 lg:px-8 relative flex md:flex-row flex-col w-full justify-between gap-10 ">
+      <MainBody data={null} />
       {/* <AdminBody/> */}
     </div>
   );

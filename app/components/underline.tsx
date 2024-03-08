@@ -1,12 +1,14 @@
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
 interface UnderlineProps {
   children: string;
+  css?: string;
 }
 
-export default function Underline({ children }: UnderlineProps) {
+export default function Underline({ children, css }: UnderlineProps) {
   return (
-    <div className=" relative pt-24">
+    <div className={twMerge(" relative pt-0", css)}>
       <h1 className="md:text-4xl text-3xl lg:text-5xl font-bold text-white relative pb-3 pl-5 ">
         {children}
       </h1>

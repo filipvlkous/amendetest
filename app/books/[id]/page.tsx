@@ -20,14 +20,14 @@ export default async function Page({ params }: any) {
 
   // const data = await apiCall(params.id);
   return (
-    <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative ">
+    <div className="mx-auto max-w-7xl pt-32 sm:px-6 lg:px-8 relative flex md:flex-row flex-col w-full justify-between gap-10 ">
       {/* <Image
         src={`data:image/png;base64,${data.data.img}`}
         alt={""}
         width={200}
         height={200}
       /> */}
-      {/* <MainBody data={data} /> */}
+      <MainBody data={null} />
     </div>
   );
 }

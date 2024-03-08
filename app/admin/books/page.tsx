@@ -7,7 +7,7 @@ export default async function AdminIndex() {
 
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative  ">
-      <Underline>Admin Book List</Underline>
+      <Underline css="pt-24">Admin Book List</Underline>
       <List data={data} hrefPath={"/admin/books/"} />
     </div>
   );

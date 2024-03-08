@@ -8,7 +8,7 @@ export default async function page() {
 
   return (
     <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative  ">
-      <Underline> User Book list</Underline>
+      <Underline css="pt-24"> User Book list</Underline>
       <List data={data} hrefPath={"/books/"} />
     </div>
   );

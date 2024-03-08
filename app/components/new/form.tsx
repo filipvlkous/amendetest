@@ -1,54 +1,36 @@
-// components/ImageUpload.tsx
-import { PhotoIcon } from "@heroicons/react/16/solid";
+"use client";
 import { twMerge } from "tailwind-merge";
+import { SubmitButton } from "./SubmitButton";
+import { submitFormData } from "./createBook";
+import { useFormState } from "react-dom";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import Modal from "./modal";
+
+const initState = {
+  message: "",
+};
 function ImageUpload() {
-  const submitFormData = async (formData: FormData) => {
-    "use server";
-    if (!formData) {
-      console.error("No file selected");
-      return;
-    }
-    const file = formData.get("file") as File;
+  const [modal, setModal] = useState(false);
+  const [state, formAction] = useFormState(submitFormData, initState);
+  const router = useRouter();
 
-    if (!file) {
-      console.error("No file selected");
-      return;
+  useEffect(() => {
+    if (state?.message == "success") {
+      router.push("/admin/books/");
     }
 
-    const bytes = await file.arrayBuffer();
-    const buffer = Buffer.from(bytes);
-    const base = buffer.toString("base64");
-
-    const jsonBody = {
-      name: formData.get("name"),
-      author: formData.get("author"),
-      img: base,
-      text: formData.get("text"),
-    };
-
-    try {
-      const response = await fetch(
-        "https://crudcrud.com/api/7c01e6b4f7f04ae39bb0304b6adb621a/books/",
-        {
-          method: "POST",
-          body: JSON.stringify(jsonBody),
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-      const data = await response.json();
-    } catch (error) {
-      console.error("Error uploading file:", error);
+    if (state?.message == "error") {
+      setModal(true);
     }
-  };
+  }, [state]);
 
   return (
-    <div className="pt-20 space-y-10 divide-y divide-gray-900/10">
-      <div className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-3">
+    <div className="pt-20 space-y-10 w-full divide-y divide-gray-900/10">
+      <div className="grid grid-cols-1 w-full gap-x-8 gap-y-8 md:grid-cols-3">
         <form
-          className="ring-1 bg-gradient-radial from-white to-gray-300 sm:rounded-xl md:col-span-2 shadow-lg shadow-gray-500"
-          action={submitFormData}
+          className="relative ring-1 bg-gradient-radial w-full from-white to-gray-100 sm:rounded-xl md:col-span-2 shadow-lg shadow-gray-500"
+          action={formAction}
         >
           <div className="px-4 py-6 sm:p-8">
             <div className="grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 ">
@@ -78,11 +60,13 @@ function ImageUpload() {
                 />
                 <div className="mt-2">
                   <textarea
+                    minLength={5}
+                    maxLength={100}
+                    required
                     id="text"
                     name="text"
                     rows={3}
-                    className="block w-full rounded-md border-0 py-1.5 text-gray-200 shadow-sm ring-1 bg-transparent ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    defaultValue={""}
+                    className="block w-full rounded-md border-0 py-1.5 pl-2 text-black shadow-sm ring-2 ring-black bg-white ring-inset  placeholder:text-gray-800 outline-none sm:text-sm sm:leading-6 "
                   />
                 </div>
                 <p className="mt-3 text-sm leading-6 text-gray-400">
@@ -100,28 +84,19 @@ function ImageUpload() {
                   id="file"
                   name="file"
                   type="file"
-                  className="w-full text-black text-sm bg-white border file:cursor-pointer cursor-pointer file:border-0 file:py-2.5 file:px-4 file:bg-gray-900 file:hover:bg-gray-200 file:text-white rounded-md "
+                  required
+                  className="w-full text-black text-sm bg-white border ring-2 ring-black mt-2 file:cursor-pointer cursor-pointer file:border-0 file:py-2.5 file:px-4 file:bg-gray-800 file:hover:bg-black file:text-white rounded-md "
                 />
                 <p className="text-xs text-gray-400 mt-2">
-                  PNG, JPG SVG, WEBP, and GIF are Allowed.
+                  PNG, JPG, SVG and WEBP are Allowed.
                 </p>
               </div>
             </div>
           </div>
           <div className="flex items-center justify-end gap-x-6 border-t border-gray-900/10 px-4 py-4 sm:px-8">
-            <button
-              type="button"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Cancel
-            </button>
-            <button
-              type="submit"
-              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-all duration-200"
-            >
-              Save
-            </button>
+            <SubmitButton />
           </div>
+          {modal && <Modal setModal={() => setModal(false)} />}
         </form>
       </div>
     </div>
@@ -158,10 +133,13 @@ const Input = ({
     <div className="mt-2">
       <div className="flex rounded-md shadow-lg ring-1 ring-inset focus-within:ring-2 focus-within:ring-inset focus-within:ring-black sm:max-w-md">
         <input
+          minLength={2}
+          maxLength={50}
+          required
           type="text"
           name={htmlFor}
           id={htmlFor}
-          className="block flex-1 border-0 shadow-2xl  bg-gray-200 ring-black ring-2 outline-none rounded-md py-1.5 pl-1 text-black placeholder:text-gray-600 focus:ring-2 sm:text-sm sm:leading-6"
+          className="block flex-1 border-0 shadow-2xl  bg-white ring-black ring-2 outline-none rounded-md py-1.5 pl-1 text-black placeholder:text-gray-600 focus:ring-2 sm:text-sm sm:leading-6"
           placeholder={placeholder}
         />
       </div>
