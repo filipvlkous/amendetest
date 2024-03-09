@@ -1,22 +1,23 @@
-import MainBody from "@/app/components/book/main";
+import MainBody from "@/app/components/updateBook/MainBody";
+import { ItemType } from "../../../components/dataType";
+import FormUpdate from "@/app/components/updateBook/form";
 
-const apiCall = async (id: string) => {
-  const resp = await fetch(`http://localhost:3000/api/admin/books/${id}`, {
+const apiCallSingle = async (id: string) => {
+  const response = await fetch(`http://localhost:3000/api/admin/books/${id}`, {
     method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
   });
-
-  return await resp.json();
+  return response;
 };
-export default async function Page() {
-  //  const id = searchParams.get("id");
-  const id = "65e70b251d380403e8714843";
-
-  // const data = await apiCall(id);
-  // console.log(data);
+export default async function Page({ params }: any) {
+  const jsonData = await apiCallSingle(params.id);
+  const data: ItemType = await jsonData.json();
   return (
-    <div className="mx-auto max-w-7xl pt-32 sm:px-6 lg:px-8 relative flex md:flex-row flex-col w-full justify-between gap-10 ">
-      <MainBody data={null} />
-      {/* <AdminBody/> */}
+    <div className="mx-auto max-w-7xl pt-32 sm:px-6 lg:px-8 relative w-full justify-between ">
+      <MainBody data={data} />
+      <FormUpdate data={data} />
     </div>
   );
 }

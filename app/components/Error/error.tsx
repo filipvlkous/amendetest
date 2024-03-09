@@ -11,7 +11,7 @@ export default function ErrorBody({
   reset: () => void;
 }) {
   return (
-    <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative  ">
+    <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 relative pt-28 ">
       <Underline>Something went wrong</Underline>
       <div className=" flex flex-col items-center pt-20">
         <Image src={Gandalf} alt="Gandalf Error Mage" />

@@ -1,32 +1,24 @@
 "use client";
-import { SubmitButton } from "./SubmitButton";
 import { useFormState } from "react-dom";
-import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
-import Modal from "../modal";
+import { useEffect, useRef, useState } from "react";
 import { ItemType } from "../dataType";
+import { SubmitButton } from "../new/SubmitButton";
+import Modal from "../modal";
+import { updateFormData } from "./updateBook";
 import { Input, Label } from "../formComponents";
 
-const initState = {
-  message: "",
-};
-
-type ImageUploadType = {
-  data?: ItemType;
-  formSubmit: (
-    prevState: any,
-    formData: FormData
-  ) => Promise<{ message: string } | undefined>;
-};
-
-function ImageUpload({ data, formSubmit }: ImageUploadType) {
+function FormUpdate({ data }: { data: ItemType }) {
+  const formRef = useRef<HTMLFormElement>(null);
   const [modal, setModal] = useState(false);
-  const [state, formAction] = useFormState(formSubmit, initState);
-  const router = useRouter();
+  let initState = {
+    message: "",
+    data: data,
+  };
+  const [state, formAction] = useFormState(updateFormData, initState);
 
   useEffect(() => {
     if (state?.message == "success") {
-      router.push("/admin/books/");
+      formRef.current?.reset();
     }
 
     if (state?.message == "error") {
@@ -39,6 +31,7 @@ function ImageUpload({ data, formSubmit }: ImageUploadType) {
       <form
         className="relative ring-1 bg-gradient-radial w-full from-white to-gray-100 sm:rounded-xl md:col-span-2 shadow-lg shadow-gray-500"
         action={formAction}
+        ref={formRef}
       >
         <div className="px-4 py-6 sm:p-8">
           <div className="flex flex-col">
@@ -76,7 +69,6 @@ function ImageUpload({ data, formSubmit }: ImageUploadType) {
                   <textarea
                     minLength={5}
                     maxLength={100}
-                    required
                     id="text"
                     name="text"
                     rows={3}
@@ -98,7 +90,6 @@ function ImageUpload({ data, formSubmit }: ImageUploadType) {
                 id="file"
                 name="file"
                 type="file"
-                required
                 className="w-full text-black text-sm bg-white border ring-2 ring-black mt-2 file:cursor-pointer cursor-pointer file:border-0 file:py-2.5 file:px-4 file:bg-gray-800 file:hover:bg-black file:text-white rounded-md "
               />
               <p className="text-xs text-gray-400 mt-2">
@@ -116,4 +107,4 @@ function ImageUpload({ data, formSubmit }: ImageUploadType) {
   );
 }
 
-export default ImageUpload;
+export default FormUpdate;

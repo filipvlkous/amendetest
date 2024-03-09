@@ -1,5 +1,6 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
 import { formSchema } from "./validation";
 
 export async function submitFormData(prevState: any, formData: FormData) {
@@ -32,22 +33,19 @@ export async function submitFormData(prevState: any, formData: FormData) {
       return { message: "error, wrong data." };
     }
 
-    const response = await fetch(
-      " https://crudcrud.com/api/d9d513d77a424d9cb866d89f1321d32b/books/",
-      {
-        method: "POST",
-        body: JSON.stringify(jsonBody),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-
+    const response = await fetch(`${process.env.NEXT_PUBLIC_DB_URL}/books/`, {
+      method: "POST",
+      body: JSON.stringify(jsonBody),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
 
     if (!response.ok) {
       console.error("Error uploading file:", response.statusText);
       return { message: "error" };
     }
+    revalidatePath('/admin/books')
     return { message: "success" };
   } catch (error) {
     console.error("Error uploading file:", error);

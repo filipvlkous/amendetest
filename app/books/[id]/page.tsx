@@ -1,33 +1,21 @@
-import MainBody from "@/app/components/book/main";
-import Image from "next/image";
-
-const apiCall = async (id: string) => {
-  const username = process.env.BASIC_AUTH_NAME;
-  const password = process.env.BASIC_AUTH_PASS;
-  const basicAuthCredentials = btoa(`${username}:${password}`);
-  const resp = await fetch(`http://localhost:3000/api/admin/books/${id}`, {
+import MainBody from "@/app/components/updateBook/MainBody";
+import { ItemType } from "@/app/components/dataType";
+const apiCallSingle = async (id: string) => {
+  const response = await fetch(`http://localhost:3000/api/admin/books/${id}`, {
     method: "GET",
     headers: {
-      Authorization: `Basic ${basicAuthCredentials}`,
+      "Content-Type": "application/json",
     },
   });
-
-  return await resp.json();
+  return response;
 };
-export default async function Page({ params }: any) {
-  //  const id = searchParams.get("id");
-  // const id = "65e799e71d380403e87149ee";
 
-  // const data = await apiCall(params.id);
+export default async function Page({ params }: any) {
+  const jsonData = await apiCallSingle(params.id);
+  const data: ItemType = await jsonData.json();
   return (
     <div className="mx-auto max-w-7xl pt-32 sm:px-6 lg:px-8 relative flex md:flex-row flex-col w-full justify-between gap-10 ">
-      {/* <Image
-        src={`data:image/png;base64,${data.data.img}`}
-        alt={""}
-        width={200}
-        height={200}
-      /> */}
-      <MainBody data={null} />
+      <MainBody data={data} />
     </div>
   );
 }
