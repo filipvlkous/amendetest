@@ -4,7 +4,6 @@ import { useFormState } from "react-dom";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Modal from "../modal";
-import { ItemType } from "../dataType";
 import { Input, Label } from "../formComponents";
 
 const initState = {
@@ -12,14 +11,13 @@ const initState = {
 };
 
 type ImageUploadType = {
-  data?: ItemType;
   formSubmit: (
     prevState: any,
     formData: FormData
   ) => Promise<{ message: string } | undefined>;
 };
 
-function ImageUpload({ data, formSubmit }: ImageUploadType) {
+function ImageUpload({ formSubmit }: ImageUploadType) {
   const [modal, setModal] = useState(false);
   const [state, formAction] = useFormState(formSubmit, initState);
   const router = useRouter();
