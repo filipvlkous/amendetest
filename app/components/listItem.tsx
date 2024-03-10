@@ -17,7 +17,7 @@ export function ListItem(item: ItemType) {
             </span>
           </div>
           <Image
-            className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"
+            className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500 object-cover"
             src={`data:image/png;base64,${item.img}`}
             alt={item.name as string}
             width={100}
